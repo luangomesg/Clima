@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.container-main {
+    background-color: #000000;
+    width: 95%;
+    max-width: 430px;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    width: calc(100% - 100px);
+}
+
+h2 {
+    color: #fff;
+    font-size: 28px;
+}
+
+.temp {
+    color: #fff;
+}
+
+.descript {
+    color: #fff;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #7c7c7c56;
+    border-radius: 50px;
+    cursor: pointer;
+    float: right;
+    display: flex;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #7c7c7c95;
+}
+
+.lupa {
+    height: 20px;
+}
+
+.umidade {
+    color: #fff;
+}
+
+.container-mid {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
