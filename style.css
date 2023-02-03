@@ -46,6 +46,7 @@ h2 {
 
 .descript {
     color: #fff;
+    text-transform: capitalize;
 }
 
 button {
@@ -77,4 +78,9 @@ button:hover {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.counteiner-minor {
+    display: flex;
+    align-items: center;
 }

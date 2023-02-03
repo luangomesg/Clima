@@ -17,16 +17,19 @@
 <body>
     <div class="container-main">
 
-        <input placeholder="Digite o nome da cidade" type="text">
-        <button><img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg" alt="Botão"></button>
+        <input class="input-city" placeholder="Digite o nome da cidade" type="text">
+        <button class="btn"><img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg" alt="Botão"></button>
         <div class="container-mid">
-            <h2>Tempo em Rio de Janeiro</h2>
+            <h2 class="city">Tempo em Rio de Janeiro</h2>
             <p class="temp">28°C</p>
-
-            <p class="descript">Nuvens Dispersas</p>
+            <div class="counteiner-minor">
+                <img class="icon" src="http://openweathermap.org/img/wn/03d.png" alt="temp">
+                <p class="descript">Nuvens Dispersas</p>
+            </div>
             <p class="umidade">Umidade: 70%</p>
         </div>
     </div>
 </body>
+<script src="script.js"></script>
 
 </html>
